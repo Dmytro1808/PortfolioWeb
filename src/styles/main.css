@@ -71,7 +71,7 @@ body {
     margin-bottom: 20px;
   }
   .container_project {
-    display: block;
+    display: inline;
     gap: 50px;
   }
   .mt-40 {

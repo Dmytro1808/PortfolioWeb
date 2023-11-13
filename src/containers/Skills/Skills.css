@@ -34,3 +34,11 @@
   max-width: 1200px;
   padding: 0 15px;
 }
+@media (max-width: 620px) {
+  .section {
+    padding: 40px 0;
+  }
+  .title-1 {
+    margin-bottom: 30px;
+  }
+}

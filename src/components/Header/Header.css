@@ -38,3 +38,59 @@
 .header__text p + p {
   margin-top: 0.5em;
 }
+
+@media (max-width: 620px) {
+  .header__title {
+    font-size: 30px;
+  }
+
+  .header {
+    min-height: unset;
+  }
+  .section {
+    padding: 40px 0;
+  }
+  .title-1 {
+    margin-bottom: 30px;
+    font-size: 45px;
+  }
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project__title {
+    font-size: 22px;
+  }
+  .footer {
+    padding: 40px 0 30px;
+  }
+  .social__item {
+    width: 28px;
+  }
+  .social {
+    column-gap: 20px;
+  }
+  .footer__wrapper {
+    row-gap: 20px;
+  }
+  .title-2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .content-list {
+    row-gap: 20px;
+  }
+  .content-list__item {
+    font-size: 16px;
+  }
+  .project-details__desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container_project {
+    display: inline;
+    gap: 50px;
+  }
+  .mt-40 {
+    margin-top: 40px;
+  }
+}

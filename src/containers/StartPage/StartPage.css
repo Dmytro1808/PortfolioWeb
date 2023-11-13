@@ -39,3 +39,8 @@
   background-color: var(--white);
   border-radius: 10px;
 }
+@media (max-width: 620px) {
+  .title-1 {
+    margin-bottom: 30px;
+  }
+}

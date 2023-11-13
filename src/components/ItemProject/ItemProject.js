@@ -4,7 +4,7 @@ import Btn from "../Btn/Btn";
 function ItemProject({ title, img, skills, gitHubLink, siteLink }) {
   return (
     <>
-      <div>
+      <div className="hlegal-item">
         <h1 className="title-1">{title}</h1>
         <img className="project-details__cover" src={img} alt={title} />
         <div className="project-details__desc">

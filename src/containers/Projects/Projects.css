@@ -22,7 +22,6 @@
   border-radius: 10px;
 }
 
-
 /*Button*/
 .btn {
   display: inline-block;
@@ -37,7 +36,7 @@
   transition: opacity 0.2s ease-in;
 }
 
-.section {
+.section_project {
   padding: 70px 0;
 }
 .title-1 {
@@ -54,5 +53,11 @@
   margin-bottom: 20px;
   font-weight: 700;
 }
-
-
+@media (max-width: 620px) {
+  .section_project {
+    padding: 15px 0;
+  }
+  .hlegal-item {
+    margin-bottom: 20px;
+  }
+}

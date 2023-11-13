@@ -5,7 +5,7 @@ import { projects } from "../../helpers/ItemProjectList";
 function Projects() {
   return (
     <>
-      <main className="section">
+      <main className="section_project">
         <div className="container_project">
           {projects.map((project) => {
             return (
