@@ -1,0 +1,58 @@
+.project-details__cover {
+  max-width: 100%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+}
+.project-details__desc {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+}
+.project-details_btn {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.btn-outline {
+  height: 48px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  color: var(--black);
+  font-weight: 500;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  transition: opacity 0.2s ease-in;
+}
+
+.btn-outline:active path {
+  fill: var(--accent);
+}
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.svg_hover__git:hover path {
+  fill: var(--accent);
+}
+
+.project-details {
+  margin: 0 auto;
+  max-width: 865px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

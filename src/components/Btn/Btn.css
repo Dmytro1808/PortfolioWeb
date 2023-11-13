@@ -1,0 +1,30 @@
+.btn-outline {
+  height: 48px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  color: var(--black);
+  font-weight: 500;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  transition: opacity 0.2s ease-in;
+}
+
+.btn-outline:active path {
+  fill: var(--accent);
+}
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.svg_hover__git:hover path {
+  fill: var(--accent);
+}

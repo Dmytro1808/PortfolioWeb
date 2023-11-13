@@ -1,0 +1,30 @@
+/*Content-list*/
+.content-list {
+  margin: 0 auto;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 40px;
+}
+
+.content-list__item {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.mailto {
+  color: var(--accent);
+}
+.skills-p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.container__skills {
+  text-align: center;
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}

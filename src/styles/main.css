@@ -1,0 +1,80 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;500;700&display=swap");
+:root {
+  --black: #171718;
+  --black-border: #26292d;
+  --white: #fff;
+  --pourple: #5c62ec;
+  --dark-bg: var(--black);
+  --dark-border: var(--black-border);
+  --header-text: var(--white);
+  --accent: var(--pourple);
+  --text-color: var(--black);
+}
+html,
+body {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: -0.5px;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media (max-width: 620px) {
+  .header__title {
+    font-size: 30px;
+  }
+  .strong__h1 {
+    font-size: 40px;
+  }
+  .header {
+    min-height: unset;
+  }
+  .section {
+    padding: 40px 0;
+  }
+  .title-1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project__title {
+    font-size: 22px;
+  }
+  .footer {
+    padding: 40px 0 30px;
+  }
+  .social__item {
+    width: 28px;
+  }
+  .social {
+    column-gap: 20px;
+  }
+  .footer__wrapper {
+    row-gap: 20px;
+  }
+  .title-2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .content-list {
+    row-gap: 20px;
+  }
+  .content-list__item {
+    font-size: 16px;
+  }
+  .project-details__desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container_project {
+    display: block;
+    gap: 50px;
+  }
+  .mt-40 {
+    margin-top: 40px;
+  }
+}
