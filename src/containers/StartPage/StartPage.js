@@ -1,6 +1,8 @@
 import "./StartPage.css";
 import Hlegal from "../../img/projects/Hlegal.jpg";
 import Out from "../../img/projects/Out.jpg";
+import RentHouse from "../../img/projects/RentHouse.jpg";
+
 import Header from "../../components/Header/Header";
 import { Link } from "react-router-dom";
 
@@ -34,6 +36,20 @@ function NavBar() {
               >
                 <img className="project__img" src={Out} alt="project_img" />
                 <h3 className="project__title">Outschool</h3>
+              </Link>
+            </li>
+            <li className="project">
+              <Link
+                to="https://renthouseusacanada.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="project__img"
+                  src={RentHouse}
+                  alt="project_img"
+                />
+                <h3 className="project__title">House & Apartment</h3>
               </Link>
             </li>
           </ul>

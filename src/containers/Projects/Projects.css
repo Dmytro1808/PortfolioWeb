@@ -3,23 +3,23 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
-  display: flex;
-  gap: 50px;
-}
-.projects {
-  gap: 30px;
   display: grid;
+  gap: 40px;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "first-project second-project"
+    "third-project third-project";
 }
 .project__img {
   max-width: 100%;
   border-radius: 10px;
   border-radius: 10px;
 }
-.project {
-  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
-  background-color: var(--white);
-  border-radius: 10px;
+
+.hlegal-item:nth-child(3) {
+  grid-area: third-project;
+  justify-self: center;
+  text-align: center;
 }
 
 /*Button*/
@@ -37,10 +37,10 @@
 }
 
 .section_project {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 .title-1 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.3;

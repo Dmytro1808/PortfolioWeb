@@ -1,5 +1,6 @@
 import itemHilelImg from "../img/projects/Hlegal.jpg";
 import itemOutImg from "../img/projects/Out.jpg";
+import itemRentImg from "../img/projects/RentHouse.jpg";
 
 const projects = [
   {
@@ -17,6 +18,14 @@ const projects = [
     img: itemOutImg,
     gitHubLink: "https://github.com/Dmytro1808/SiteForOutschool",
     siteLink: "https://dmytro1808.github.io/SiteForOutschool/",
+  },
+  {
+    id: "3",
+    title: "House & Apartment",
+    skills: "Skills: HTML, JS, REACT, TAILWIND, REACT ROUTER",
+    img: itemRentImg,
+    gitHubLink: "https://github.com/Dmytro1808/RentHome",
+    siteLink: "https://renthouseusacanada.netlify.app/",
   },
 ];
 
